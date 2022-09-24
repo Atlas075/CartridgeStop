@@ -6,7 +6,9 @@
   "scripts": {
     "start": "node server/server.js",
     "watch": "nodemon",
-    "seed": "node seeders/seeds.js"
+    "seed": "node seeders/seeds.js",
+    "build": "cd client && npm run build",
+    "install": "cd server && npm i cd ../client && npm i"
   },
   "repository": {
     "type": "git",
